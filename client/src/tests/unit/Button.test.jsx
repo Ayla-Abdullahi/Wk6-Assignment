@@ -30,7 +30,7 @@ describe('Button Component', () => {
     button = screen.getByRole('button', { name: /danger/i });
     expect(button).toHaveClass('btn-danger');
   });
-
+  
   // Test different sizes
   it('renders with different sizes', () => {
     const { rerender } = render(<Button size="sm">Small</Button>);
