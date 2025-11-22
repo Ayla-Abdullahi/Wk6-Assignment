@@ -39,3 +39,4 @@ npm run test:e2e    # Playwright
 - Add visual regression (e.g., Playwright snapshots or Storybook + Chromatic).
 - Integrate web-vitals reporting and performance budgets.
 ## Test coverage report
+- check the screenshots folder --Screenshots/Full-test-coverage.png
